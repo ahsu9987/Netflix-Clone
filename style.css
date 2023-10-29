@@ -1,0 +1,42 @@
+#backgroundimg{
+    height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0,0,0,0.7)), url(images/netflixbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+.txthead{
+    font-size: 50px;
+    margin-top: 170px;
+}
+.emailbox{
+    width: 450px;
+    height: 60px;
+background: black;
+opacity: 0.5;
+outline: 0px;
+margin-left: 300px;
+}
+
+@media only screen and (max-width: 767px)  {
+    #backgroundimg{
+        height: 100vh;
+    }
+    .txthead{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .emailbox{
+        width: 500px;
+        height: 60px;
+    background: black;
+    opacity: 0.5;
+    outline: 0px;
+    margin-left: 0px;
+    }
+    .btnhomepg{
+      
+    }
+}
