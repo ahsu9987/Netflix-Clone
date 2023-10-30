@@ -58,6 +58,24 @@
     .columntwo{
         height: 500px;
     }
+    .mobileimage{
+        height: 500px;
+        width: 600px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    .secondtxthead1{
+        margin-right: 100px;
+        margin-left: 10px;
+        font-size: 55px;
+    }
+    .secondtxthead2{
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 25px; 
+        height: 202px;
+
+    }
 
 @media only screen and (max-width: 767px)  {
     #backgroundimg{
