@@ -27,13 +27,14 @@
         color: white;
         outline: 0px;
     }
-    hr{
-        border: 8px solid black;
-        margin-top: 130px;
+    .divider{
+        height: 7px;
+        background-color: #3b3a3a;
     }
     .txthead1{
         margin-top: 150px;
         margin-left:180px;
+        text-align: start;
     }
     .txthead2{
         font-size: 22px;
@@ -44,7 +45,6 @@
         margin-right: 150px;
         margin-top: 10px; 
         width: 544px;
-
     }
     .video1st{
         position: relative; 
@@ -58,24 +58,98 @@
     .columntwo{
         height: 500px;
     }
-    .mobileimage{
-        height: 500px;
-        width: 600px;
-        margin-left: 130px;
-        margin-top: 30px;
+   .mobilesectionview{
+    padding-top: 100px;
+    color: white;
+   }
+   .stranger{
+    height: 70px;
+   }
+   .gif{
+    height: 60px;
+   }
+   .batch{
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 125px;
+   }
+   .secondtxthead1{
+    font-size: 50px;
+    text-align: start;
+   }
+   .secondtxthead2{
+    text-align: start;
+    font-size: 25px;
+   }
+   .thirdtsectionhead1{
+        font-size: 50px;
+        margin-top: 130px;
+        margin-left:60px;
+        text-align: center;
+   }
+   .thirdtsectionpara{
+    font-size: 25px;
+    margin-left:180px;
+    text-align: start;
+   }
+   .videosecond{
+    position: relative; 
+    bottom: 360px;
+    right: 77px;
+    width: 320px; 
+   }
+   .secondTvimage{
+    margin-right: 150px;
+    width: 570px;
+   } 
+   .dropdowntxthead{
+    font-size: 45px;
+   }
+   .btnquestion{
+    width:90%;
+    height: 80px;
+    text-align: left;
+    padding: 15px;
+    font-size: 28px;
+   background-color: #2d2d2d;
+   border-radius: 0;
+   /* margin-bottom: 2px; */
+   color: white;
+   }
+   .btnquestion:hover{
+    background-color: #4d4a4a;
+   }
+   .para{
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin: auto;
+   background-color: #2d2d2d;
+   border-radius: 0;
+   }
+   .btnquestion:active .plus{
+    rotate: 45deg;
     }
-    .secondtxthead1{
-        margin-right: 100px;
-        margin-left: 10px;
-        font-size: 55px;
+    .footerrow{
+        line-height: 35px;
+        margin-left: 50px;
     }
-    .secondtxthead2{
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 25px; 
-        height: 202px;
+    .footertxt{
+        text-align: start;
+    }
+    .footerhead{
+        text-align: start;
+        margin-top: 50px;
+        font-size: 18px;
+    }
 
-    }
 
 @media only screen and (max-width: 767px)  {
     #backgroundimg{
@@ -108,9 +182,6 @@
     .btnhomepg1{
     flex-wrap: wrap;
     }
-    hr{
-        margin-top: 30px;
-    }
     .txthead1{
         font-size: 30px;
         margin-top: 50px;
@@ -123,7 +194,7 @@
     }
     .Tvimage{
         margin-right: 0px; 
-        width: 356px;
+        width: 340px;
     }
     .video1st{
     position: relative; 
@@ -137,5 +208,89 @@
     .columntwo{
         height: 330px;
     }
-
+    .mobilesectionview{
+        height: 570px;
+        padding-top: 70px;
+       }
+       .stranger{
+        height: 50px;
+       }
+       .gif{
+        height: 50px;
+       }
+       .batch{ 
+        width: 260px;
+        height: 65px;
+        position: relative;
+        top: 60px;
+       }
+       .text-stran{
+        font-size: 16px !important;
+       }
+       .text-dwonlod{
+        font-size: 14px;
+        text-align: left;
+       }
+       .secondtxthead1{
+        font-size: 32px;
+        padding: 15px;
+        text-align: center;
+       }
+       .secondtxthead2{
+        text-align: center;
+        font-size: 17px;
+       }
+       .mobileimage{
+        position: relative;
+        top: 140px;
+       }
+       .secondsectiontxtbox{
+        position: relative;
+        bottom: 380px;
+       }
+       .thirdtsectionhead1{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-left:10px;
+   }
+    .thirdtsectionpara{
+        font-size: 18px;
+        margin-left:10px;
+        text-align: center;
+    }
+    .videosecond{
+        position: relative; 
+        bottom: 265px;
+        right: 0px;
+        width: 220px; 
+       }
+       .secondTvimage{
+        margin-right: 0px;
+        width: 350px;
+        position: relative;
+        bottom: 30px;
+       }
+       .dropdowntxthead{
+        font-size: 35px;
+       }
+       .btnquestion{
+        font-size: 20px;
+       }
+       .para{
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: auto;
+       background-color: #2d2d2d;
+       border-radius: 0;
+       }
+       .btnquestion:active .plus{
+        rotate: 45deg;
+        }
+        .footerrow{
+            margin-left: 0px;
+        }
+        .footerhead{
+            margin-left: 0px;
+        }
+    
 }
