@@ -149,7 +149,9 @@
         margin-top: 50px;
         font-size: 18px;
     }
-
+    a{
+    color: white;
+    } 
 @media only screen and (max-width: 767px)  {
     #backgroundimg{
         height: 88vh;
@@ -334,4 +336,78 @@
         left: 5px;
         width: 473px;    
         }
+        .columntwo{
+            height: 220px;
+        }
+        .mobilesectionview{
+            padding-top: 400px;
+           }
+           .secondtxthead1{
+            font-size: 30px;
+            text-align: center;
+           }
+           .secondtxthead2{
+            text-align: center;
+            font-size: 17px;
+           }
+        .secondsectiontxtbox{
+            position: relative;
+            bottom: 900px;
+        }
+        .mobileimage{
+            position: relative;
+            bottom: 230px;
+            left: 85px;
+           }
+           .batch{ 
+            width: 430px;
+            height: 90px;
+            position: relative;
+            bottom: 350px;
+           }
+           .text-stran{
+            font-size: 27px !important;
+           }
+           .text-dwonlod{
+            font-size: 14px;
+            text-align: left;
+           }
+           #secondsection{
+            height: 730px;
+           }
+           .thirdtsectionhead1{
+            font-size: 35px;
+            margin-top: 60px;
+            margin-left:10px;
+       }
+        .thirdtsectionpara{
+            font-size: 18px;
+            margin-left:10px;
+            text-align: center;
+        }
+        .videosecond{
+            position: relative; 
+            bottom: 730px;
+            right: 0px;
+            width: 385px; 
+           }
+           .secondTvimage{
+            margin-right: 0px;
+            width: 600px;
+            position: relative;
+            bottom: 320px;
+           }
+       .secondtxthead1{
+        margin-top: 40px;
+       }
+       .btnquestion{
+        font-size: 15px;
+        width: 700px;
+       }
+       .footerrow{
+        margin-left: 0px;
+    }
+    .footerhead{
+        margin-left: 0px;
+    }   
 }
