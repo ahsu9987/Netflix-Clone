@@ -41,22 +41,31 @@
         margin-left:180px;
         text-align: start;
     }
+    .v-grid{
+        z-index: 1;
+    }
     .Tvimage{
         margin-right: 150px;
         margin-top: 10px; 
         width: 544px;
     }
     .video1st{
-        position: relative; 
-        bottom: 323px;
-        right: 77px;
-        width: 396px;    
+        z-index: -1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        max-width: 52%;
+        max-height: 45%;
+        position: absolute;
+        top: 19%;
+        left: 14%;
     }
     .columnone{
         height: 500px;
     }
     .columntwo{
         height: 500px;
+        position: relative;
     }
    .mobilesectionview{
     padding-top: 100px;
